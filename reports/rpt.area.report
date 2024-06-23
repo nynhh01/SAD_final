@@ -1,0 +1,59 @@
+Information: Building the design 'reg' instantiated from design 'datapath_8_03_03' with
+	the parameters "data_width=8". (HDL-193)
+Warning: Cannot find the design 'reg' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'reg' in 'datapath_8_03_03'. (LINK-5)
+ 
+****************************************
+Report : area
+Design : sad
+Version: O-2018.06-SP5-5
+Date   : Sun Jun 23 07:25:34 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/userdata/k66D/nguyentht_66d/icdesign/m3/lab01/ref/db_nldm/saed14rvt_tt0p8v25c.db)
+
+Number of ports:                          215
+Number of nets:                          1070
+Number of cells:                          836
+Number of combinational cells:            651
+Number of sequential cells:               176
+Number of macros/black boxes:               0
+Number of buf/inv:                        223
+Number of references:                       2
+
+Combinational area:                192.784796
+Buf/Inv area:                       40.847999
+Noncombinational area:             185.414407
+Macro/Black Box area:                0.000000
+Net Interconnect area:             566.679532
+
+Total cell area:                   378.199203
+Total area:                        944.878735
+
+Information: This design contains black box (unknown) components. (RPT-8)
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------------
+sad                                378.1992    100.0    0.0000     0.0000  0.0000  sad
+control_unit                        15.8952      4.2   11.6328     4.2624  0.0000  controller_data_width8
+datapath_unit                      362.3040     95.8   20.2908     0.0000  0.0000  datapath_8_03_03
+datapath_unit/MemA                 149.2728     39.5   64.0248    85.2480  0.0000  mem_0
+datapath_unit/MemB                 149.2728     39.5   64.0248    85.2480  0.0000  mem_1
+datapath_unit/add_106                8.1252      2.1    8.1252     0.0000  0.0000  datapath_8_03_03_DW01_add_0
+datapath_unit/add_97                 4.6176      1.2    4.6176     0.0000  0.0000  datapath_8_03_03_DW01_inc_0
+datapath_unit/dem_i                 10.7004      2.8    5.3724     5.3280  0.0000  counter_0
+datapath_unit/dem_j                 10.7004      2.8    5.3724     5.3280  0.0000  counter_1
+datapath_unit/sub_93                 9.3240      2.5    9.3240     0.0000  0.0000  datapath_8_03_03_DW01_sub_0
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------------
+Total                                                 192.7848   185.4144  0.0000
+
+1
