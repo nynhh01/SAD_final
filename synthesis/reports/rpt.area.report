@@ -1,0 +1,50 @@
+Warning: Design 'sad' has '6' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : sad
+Version: O-2018.06-SP5-5
+Date   : Sun Jun 23 13:03:55 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed14rvt_tt0p8v25c (File: /home/userdata/k66D/nguyentht_66d/icdesign/m3/lab01/ref/db_nldm/saed14rvt_tt0p8v25c.db)
+
+Number of ports:                          147
+Number of nets:                           332
+Number of cells:                          144
+Number of combinational cells:            129
+Number of sequential cells:                10
+Number of macros/black boxes:               0
+Number of buf/inv:                         34
+Number of references:                       2
+
+Combinational area:                 53.413199
+Buf/Inv area:                        6.038400
+Noncombinational area:               4.262400
+Macro/Black Box area:                0.000000
+Net Interconnect area:              37.506007
+
+Total cell area:                    57.675599
+Total area:                         95.181606
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------------
+sad                                 57.6756    100.0    0.0000     0.0000  0.0000  sad
+control_unit                        16.0284     27.8   11.7660     4.2624  0.0000  controller_data_width8
+datapath_unit                       41.6472     72.2   19.9356     0.0000  0.0000  datapath_8_03_03
+datapath_unit/add_107                8.1252     14.1    8.1252     0.0000  0.0000  datapath_8_03_03_DW01_add_0
+datapath_unit/add_98                 4.6176      8.0    4.6176     0.0000  0.0000  datapath_8_03_03_DW01_inc_0
+datapath_unit/sub_94                 8.9688     15.6    8.9688     0.0000  0.0000  datapath_8_03_03_DW01_sub_0
+--------------------------------  ---------  -------  --------  ---------  ------  ---------------------------
+Total                                                  53.4132     4.2624  0.0000
+
+1
